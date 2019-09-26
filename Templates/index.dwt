@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>PET Peru</title>
+	<link rel="stylesheet" href="css/estilos.css">
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="contacto" type="boolean" value="true" -->
+</head>
+
+<body class="cuerpo">
+
+	
+
+	<!-- TemplateBeginEditable name="subtitulo" -->
+	<header>
+		<h1 style="text-align: center" > Pet Perú </h1>
+	</header>
+	<!-- TemplateEndEditable -->
+	
+	<!-- TemplateBeginEditable name="menu" -->
+		<nav style="background-color:#B5F3D3; text-align: center">
+		<a href="index.html"> INICIO </a>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		<a href="servicioA.html">VENTA DE ARTICULOS</a> 
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		<a href="servicioB.html"> ADOPTAME </a>
+		
+	</nav>
+		<!--<a href="../../../../Downloads/S05_Break/S05/ejemplo01.html"> servicio a</a> - 
+		<a href="../../../../Downloads/S05_Break/S05/ejemplo02.html"> servicio b </a>-->
+		<br>
+	
+		<section>
+		<div class="container">
+			<div class="comida">	<a href="servicioA.html" target="_blank"> <img class="food" src="img/comida.jpg" alt="Comida_mascotas">    </a> 
+			
+				<a href="servicioB.html" target="_blank"><img class="adoptame" src="img/adoptame.jpg" alt=""></a>
+			</div>
+		</div>
+	</section>
+	
+	<!-- TemplateEndEditable -->
+	<br><br>
+	<!-- TemplateBeginIf cond="contacto" -->
+	
+	<!-- TemplateEndIf -->
+	
+	<!-- Crear seccion Condicional con el telefono de compañia
+		 que se muestre en ejemplo02 y no en ejemplo01 -->
+	
+	<br><br>
+	<!-- TemplateBeginRepeat name="comentarios" -->
+	
+	<p>Pet Perú es una tienda online de productos para mascotas en la que por cada bolsa de comida vendida, se dona croquetas a nuestro Albergue Hermano.</p>
+	<br>
+
+	<p>Misión: Fomentar la compra consciente y la participación de todos los tenedores de mascotas para llegar a la meta de abastecer el 100% de la alimentación mensual de los albergues hermanos</p>
+	<br>
+
+	<p>Visión: Proteger la integridad de los animales de la calle a través de la colaboración de la sociedad tenedora de mascotas, convirtiéndonos en un referente en las empresas de impacto social.</p>
+	<!-- TemplateEndRepeat -->
+	
+	
+</body>
+	<br>
+	<footer>	<b>Contactenos...</b>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7793.107813250311!2d-76.99678673323122!3d-12.117608315059275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7f0606423ef%3A0x5ebcb5b11388f07e!2sCl%C3%ADnica%20Veterinaria%20Rond%C3%B3n!5e0!3m2!1ses-419!2spe!4v1569207051720!5m2!1ses-419!2spe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+	</footer>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>PET Peru</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="contacto" type="boolean" value="true" -->
+</head>
+<body>
+	
+	<h1> Pet Perú </h1>
+
+	<!-- TemplateBeginEditable name="subtitulo" -->
+		<h2> Contenido </h2>
+	<!-- TemplateEndEditable -->
+	
+	<!-- TemplateBeginEditable name="menu" -->
+		<a href="../../../../Downloads/S05_Break/S05/ejemplo01.html"> servicio a</a> - 
+		<a href="../../../../Downloads/S05_Break/S05/ejemplo02.html"> servicio b </a>
+		<br>
+		Elija alguna página para navegar.
+	<!-- TemplateEndEditable -->
+	<br><br>
+	<!-- TemplateBeginIf cond="contacto" -->
+		<b>Contactenos...</b>
+	<!-- TemplateEndIf -->
+	
+	<!-- Crear seccion Condicional con el telefono de compañia
+		 que se muestre en ejemplo02 y no en ejemplo01 -->
+	
+	<br><br>
+	<!-- TemplateBeginRepeat name="comentarios" -->
+	Comentarios 1
+	<!-- TemplateEndRepeat -->
+	
+	
+</body>
+</html>
